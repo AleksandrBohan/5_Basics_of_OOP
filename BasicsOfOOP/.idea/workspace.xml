@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="431a4d4e-1616-46ff-924b-f9c506c8c352" name="Default Changelist" comment="I started the first task from this part!">
+    <list default="true" id="431a4d4e-1616-46ff-924b-f9c506c8c352" name="Default Changelist" comment="I have had some problems with task1 and I haven't ended it!">
       <change afterPath="$PROJECT_DIR$/../.idea/5_Basics_of_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/META-INF/BasicsOfOOP.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/Directory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/Document.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/File.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/TextFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task2/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/TextFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task1/TextFile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task1/TextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1/TextFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +69,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Payment">
+    <configuration name="Payment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.Payment" />
+      <module name="BasicsOfOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task1.TextFile" />
       <module name="BasicsOfOOP" />
@@ -88,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Payment" />
         <item itemvalue="Application.TextFile" />
       </list>
     </recent_temporary>
@@ -110,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625846528048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I have had some problems with task1 and I haven't ended it!">
+      <created>1625911088947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625911088947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I started the first task from this part!" />
-    <option name="LAST_COMMIT_MESSAGE" value="I started the first task from this part!" />
+    <MESSAGE value="I have had some problems with task1 and I haven't ended it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="I have had some problems with task1 and I haven't ended it!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="253" y="0" key="#Project_Structure" timestamp="1625844335306">
@@ -142,30 +161,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="553" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625900202241" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1625910928159">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1625913253106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625910928159" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1625910928159">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625913253106" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1625913253105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625910928159" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1625910928159">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625913253105" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1625913253105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625910928159" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1625910928159">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625913253105" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1625913253106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625910928159" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625913253106" />
     <state x="281" y="57" key="SettingsEditor" timestamp="1625906368113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="281" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625906368113" />
-    <state x="365" y="145" key="Vcs.Push.Dialog.v2" timestamp="1625846536688">
+    <state x="365" y="145" key="Vcs.Push.Dialog.v2" timestamp="1625911098184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="365" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625846536688" />
+    <state x="365" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625911098184" />
     <state x="544" y="170" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625909951335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

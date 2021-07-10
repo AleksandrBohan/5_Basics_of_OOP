@@ -101,7 +101,7 @@ public class TextFile extends File{
 
         TextFile textFile;
 
-        textFile.create(textFile1, "dfs", "djf fk fk fkm ");
+       // textFile.create(textFile1, "dfs", "djf fk fk fkm ");
 
         Directory directory = new Directory("Praca", new File[]
                 {/*(File) new TextFile("Lala", "kjfdkgjkfks klsdjjfd kdfjl")
@@ -109,18 +109,18 @@ public class TextFile extends File{
                 new TextFile("Tala", "skhfj dkjfh kdsjd kdkjfk kdjf")
                 });
         File file = new TextFile("Lapa", "kjas dkj dlj lkdj dlkj dj djvlj");
-        file.create(textFile, "dfs", "djf fk fk fkm ");
+      //  file.create(textFile, "dfs", "djf fk fk fkm ");
        // file.output(textFile);
        // file.add(textFile, "jsdfk djf djfjh dffdhjh djjfj11111111");
        // file.output(textFile);
         file.delete(textFile1);
         //file.output(textFile);
-        file.reName(textFile, "Papap");
+      //  file.reName(textFile, "Papap");
 
         directory.create(new Directory("Gaca", new File[]{
-                (File) new TextFile("Tara", "djnfjndld f d").add(textFile, "dfdf y"),
-                (File) new File("Ratat", "dsjfdf 112 23 4 5 5 6 6 7 7 ").reName(
-                        new File("Ppp", "dfs d123f"), "Yyy")}));
+                new TextFile("Tara", "djnfjndld f d"),
+                new File("Ratat", "dsjfdf 112 23 4 5 5 6 6 7 7 "),
+                        new File("Ppp", "dfs d123f")}));
         directory.reName(directory, "Hobbies");
 
     }
