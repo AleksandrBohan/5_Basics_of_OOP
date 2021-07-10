@@ -1,11 +1,11 @@
 package Task1;
 
 interface Document{
-    Object create(Object o);
-    Object reName(Object o);
-    void output(Object o);
-    void add(Object o);
-    void delete(Object o);
+    Object create(File file, String nameOfFile, String textInFile);
+    Object reName(File file, String reNameFile);
+    Object output(File file);
+    Object add(File file, String addText);
+    String delete(File file);
 }
 
 class File implements Document{
@@ -14,106 +14,115 @@ class File implements Document{
     private String textInFile;
     private TextFile textFileName;
 
-   File(String nameOfFile, String textInFile, TextFile textFileName){
-    this.nameOfFile = nameOfFile;
-    this.textInFile = textInFile;
-   }
+   File(String nameOfFile, String textInFile){
+        this.nameOfFile = nameOfFile;
+        this.textInFile = textInFile;
+      }
+
 
     @Override
-    public Object create(File file) {
-        file = new File(nameOfFile, textInFile, textFileName);
+    public Object create(File file, String nameOfFile, String textInFile) {
+        file = new TextFile(nameOfFile, textInFile);
         return "File " + file.nameOfFile + "  was created!";
     }
 
     @Override
     public Object reName(File file, String renameFile) {
-       file.nameOfFile = renameFile;
+        file.nameOfFile = renameFile;
         return "New file name is " +  file.nameOfFile;
     }
 
     @Override
     public Object output(File file) {
-     return file.textInFile;
+        return file.textInFile;
     }
 
     @Override
-    public String add(File file, String addText) {
-    String textMix = file.textInFile + addText;
-    return textMix;
+    public Object add(File file, String addText) {
+        String textMix = file.textInFile + addText;
+        return textMix;
     }
 
     @Override
-    public void delete(File file) {
-        return;
+    public String delete(File file) {
+        file.textInFile = null;
+        return file.textInFile;
     }
 }
 
-class Directory implements Document{
-Directory(){
+class Directory{
+
+        String nameOfDirectory;
+
+        File [] files;
+
+    Directory(String nameOfDirectory, File [] files){
+
+        this.nameOfDirectory = nameOfDirectory;
+
+        this.files = files;
+
 
 }
 
 
-    @Override
-    public void create() {
 
+    public Object create(Directory directory) {
+        directory = new Directory(nameOfDirectory, files);
+        return "Directory " + directory.nameOfDirectory + "  was created!";
     }
 
-    @Override
-    public void reName() {
 
+    public Object reName(Directory directory, String nameForChanging) {
+        directory.nameOfDirectory = nameForChanging;
+        return "New directory name is " + directory.nameOfDirectory ;
     }
 
-    @Override
-    public void output() {
 
-    }
-
-    @Override
-    public void add() {
-
-    }
-
-    @Override
-    public void delete() {
-
-    }
 }
 
 
-public class TextFile implements Document {
+public class TextFile extends File{
+
     TextFile textFile;
-TextFile(){
+    String nameOfTextFile;
+    String textInTextFile;
 
-}
-void create(TextFile textFile){
-    this.textFile = textFile;
-    textFile = new TextFile();
-}
 
-    @Override
-    public Object create(TextFile textFile){
-          textFile = new TextFile();
-          return textFile.
-    }
+    TextFile(String nameOfTextFile, String textInTextFile){
 
-    @Override
-    public void reName() {
+            super(nameOfTextFile, textInTextFile);
 
     }
 
-    @Override
-    public void output() {
+    public static void main(String[] args) {
+
+        TextFile textFile1 = null;
+
+        TextFile textFile;
+
+        textFile.create(textFile1, "dfs", "djf fk fk fkm ");
+
+        Directory directory = new Directory("Praca", new File[]
+                {/*(File) new TextFile("Lala", "kjfdkgjkfks klsdjjfd kdfjl")
+                        .create(textFile1),*/
+                new TextFile("Tala", "skhfj dkjfh kdsjd kdkjfk kdjf")
+                });
+        File file = new TextFile("Lapa", "kjas dkj dlj lkdj dlkj dj djvlj");
+        file.create(textFile, "dfs", "djf fk fk fkm ");
+       // file.output(textFile);
+       // file.add(textFile, "jsdfk djf djfjh dffdhjh djjfj11111111");
+       // file.output(textFile);
+        file.delete(textFile1);
+        //file.output(textFile);
+        file.reName(textFile, "Papap");
+
+        directory.create(new Directory("Gaca", new File[]{
+                (File) new TextFile("Tara", "djnfjndld f d").add(textFile, "dfdf y"),
+                (File) new File("Ratat", "dsjfdf 112 23 4 5 5 6 6 7 7 ").reName(
+                        new File("Ppp", "dfs d123f"), "Yyy")}));
+        directory.reName(directory, "Hobbies");
 
     }
 
-    @Override
-    public void add() {
-
-    }
-
-    @Override
-    public void delete() {
-
-    }
 }
