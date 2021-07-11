@@ -16,7 +16,7 @@ public class Calendar {
         this.year = year;
 
         if (weekendDay = true){
-           new Weekends(day, month, year).saveInformation(weekend.weekends, weekend, "New Year");
+           new Weekends(day, month, year).saveInformation(new Weekends(day, month, year).weekends, weekend, "New Year");
            weekend.outputInformation(weekend.weekends);
         }
     }
@@ -45,7 +45,7 @@ public class Calendar {
             this.weekendDay = day;
             this.weekendMonth = month;
             this.weekendYear = year;
-            saveInformation(weekends, weekend, note);
+         //   saveInformation(weekends, weekend, note);
         }
 
         void outputInformation(Map<Weekends, String> weekends){
