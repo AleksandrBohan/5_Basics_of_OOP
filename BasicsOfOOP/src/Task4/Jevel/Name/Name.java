@@ -28,6 +28,7 @@ public class Name {
 
         for (int i = 0; i < count; i++){
             names[i] = output(i);
+            System.out.println(names[i]);
         }
     }
 }

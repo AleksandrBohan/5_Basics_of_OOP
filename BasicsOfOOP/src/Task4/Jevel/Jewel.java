@@ -33,7 +33,7 @@ void toChoose() throws IOException {
 
     public static void main(String[] args) throws IOException {
         Jewel jevels = new Jewel();
-        jevels.countOfJevels(10);
+        jevels.toChoose();
     }
 
 }

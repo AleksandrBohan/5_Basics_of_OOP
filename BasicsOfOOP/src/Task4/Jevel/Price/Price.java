@@ -29,10 +29,11 @@ public class Price{
 
         for (int i = 0; i < count; i++){
             prices[i] = Integer.valueOf(output(i));
+            System.out.println(prices[i]);
         }
     }
 
-   public void theMostExpensive(){
+   public void theMostExpensive() throws IOException {
         int maxValue = 0;
         int index = 0;
         for (int i = 0; i < prices.length; i++){

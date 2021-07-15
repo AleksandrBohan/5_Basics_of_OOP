@@ -19,32 +19,80 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="431a4d4e-1616-46ff-924b-f9c506c8c352" name="Default Changelist" comment="I started to do task4.">
+    <list default="true" id="431a4d4e-1616-46ff-924b-f9c506c8c352" name="Default Changelist" comment="I have been doing task4 for 1,5 hours already.">
       <change afterPath="$PROJECT_DIR$/../.idea/5_Basics_of_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/Dragon/Dragon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/Jevel/Name/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4/Jevel/Price/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task5Continue/Candy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task5Continue/Pack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task5Continue/Present.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/Army.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/Castle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/ElfArmy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/ElfCastle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/ElfKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/ElfKingdomFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/Kingdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/KingdomFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/OrcArmy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/OrcCastle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/OrcKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/main/java/Task5/OrcKingdomFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jevels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Names.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Prices.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevels.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4/Jevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Jevel/Jewel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Dragon/Dragon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Jewel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Jewel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Name/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Name/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Price/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicsOfOOP/Task4/Jevel/Price/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Dragon/Dragon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Jevel/Jewel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Jevel/Jewel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Jevel/Name/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Jevel/Name/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4/Jevel/Price/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/Jevel/Price/Price.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/apache-maven-3.8.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1v5FzitPVfxTm5kUMgqQ4mHq4lc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,6 +104,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,11 +118,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Task1" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Task5" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -80,7 +135,20 @@
       <recent name="C:\Users\ivanv\IdeaProjects\5_Basics_of_OOP\BasicsOfOOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jewel">
+  <component name="RunManager" selected="Application.Present">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5.App" />
+      <module name="BasicsOfOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task3.Calendar" />
       <module name="BasicsOfOOP" />
@@ -120,25 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Payment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task2.Payment" />
+    <configuration name="Present" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task5Continue.Present" />
       <module name="BasicsOfOOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task1.TextFile" />
-      <module name="BasicsOfOOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task1.*" />
+          <option name="PATTERN" value="Task5Continue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Present" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Jewel" />
         <item itemvalue="Application.Jevels" />
         <item itemvalue="Application.Calendar" />
-        <item itemvalue="Application.Payment" />
-        <item itemvalue="Application.TextFile" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626029428950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I have been doing task4 for 1,5 hours already.">
+      <created>1626198233647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626198233647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,17 +286,22 @@
     <MESSAGE value="I have ended task2!" />
     <MESSAGE value="I have been doing task3 around for an hour!" />
     <MESSAGE value="I started to do task4." />
-    <option name="LAST_COMMIT_MESSAGE" value="I started to do task4." />
+    <MESSAGE value="I have been doing task4 for 1,5 hours already." />
+    <option name="LAST_COMMIT_MESSAGE" value="I have been doing task4 for 1,5 hours already." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="535" y="116" key="#Auto_Import" timestamp="1626285774021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="535" y="116" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1626285774021" />
     <state x="253" y="0" key="#Project_Structure" timestamp="1625844335306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="253" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1625844335306" />
-    <state x="578" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1626193950615">
+    <state x="578" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1626284243637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1626193950615" />
+    <state x="578" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1626284243637" />
     <state x="503" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1625915298194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -243,41 +310,76 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="553" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625900202241" />
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1626195133761">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1626376054369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626195133761" />
-    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1626195133761">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626376054369" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1626376054368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626195133761" />
-    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1626195133761">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626376054368" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1626376054368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626195133761" />
-    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1626195133761">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626376054368" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1626376054369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626195133761" />
-    <state x="281" y="57" key="SettingsEditor" timestamp="1625906368113">
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626376054369" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1626204683275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="281" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625906368113" />
-    <state x="365" y="145" key="Vcs.Push.Dialog.v2" timestamp="1626029438792">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626204683275" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1626204683275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="365" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626029438792" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1626204683275" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1626204683275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1626204683275" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1626204683275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1626204683275" />
+    <state x="281" y="0" key="SettingsEditor" timestamp="1626371141847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="281" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626371141847" />
+    <state x="365" y="145" key="Vcs.Push.Dialog.v2" timestamp="1626200762469">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626200762469" />
+    <state x="530" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1626289057959">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1626289057959" />
     <state x="544" y="170" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625909951335">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="170" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1625909951335" />
+    <state x="209" y="32" key="new project wizard" timestamp="1626368880087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1626368880087" />
     <state x="429" y="189" key="run.anything.popup" timestamp="1625908694891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="429" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1625908694891" />
-    <state x="435" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1625906222866">
+    <state x="435" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1626371103603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="435" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625906222866" />
+    <state x="435" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1626371103603" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task4/Jevel/Jewel.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
